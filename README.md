@@ -43,7 +43,7 @@ A Flask web application that detects **potentially malicious URLs** using a comb
 
 <img width="893" alt="Image" src="https://github.com/user-attachments/assets/c35bcf45-bf4d-44e2-868d-7d97f9fb1ab2" />
 
----
+
 
 <img width="890" alt="Image" src="https://github.com/user-attachments/assets/c488ec73-2252-4fde-b160-6f88f58fccda" />
 
