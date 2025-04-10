@@ -47,6 +47,50 @@ A Flask web application that detects **potentially malicious URLs** using a comb
 
 ## 📦 Installation & Usage
 
+
+
+
+
+
+
+
+
+Visit the app: http://127.0.0.1:5000/
+
+📁 Project Structure
+pgsql
+Copy
+Edit
+├── templates/
+│   ├── index.html
+│   └── result.html
+├── app.py
+├── requirements.txt
+✅ Example URLs
+Safe:
+
+https://www.google.com
+
+https://www.github.com
+
+https://www.amazon.com
+
+Malicious:
+
+http://phishing-example.com/login?session=1234
+
+http://modapk-download.com/free
+
+http://fakebanking-login.com/secure-login
+
+📌 Future Enhancements
+Real-time domain reputation API integration
+
+Responsive UI with Bootstrap or Tailwind
+
+User login and URL history log
+
+Email alerts for suspicious URL detection
 ```bash
 git clone https://github.com/yourusername/url-safety-detector.git
 cd url-safety-detector
