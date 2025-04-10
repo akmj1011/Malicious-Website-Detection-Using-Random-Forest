@@ -50,6 +50,7 @@ A Flask web application that detects **potentially malicious URLs** using a comb
 ---
 
 ## 🔧 How It Works
+
 URL input is vectorized with TF-IDF (character-level n-grams)
 
 Heuristic features (length, https, etc.) are added
@@ -65,6 +66,7 @@ Visit the app: http://127.0.0.1:5000/
 ---
 
 ## 📁 Project Structure
+
 pgsql
 Copy
 Edit
@@ -77,6 +79,7 @@ Edit
 ---
 
 ## ✅ Example URLs
+
 # Safe:
 
 https://www.google.com
@@ -96,6 +99,7 @@ http://fakebanking-login.com/secure-login
 ---
 
 ## 📌 Future Enhancements
+
 Real-time domain reputation API integration
 
 Responsive UI with Bootstrap or Tailwind
@@ -106,7 +110,8 @@ Email alerts for suspicious URL detection
 
 ---
 
-📄 License
+## 📄 License
+
 This project is licensed under the MIT License.
 
 ---
