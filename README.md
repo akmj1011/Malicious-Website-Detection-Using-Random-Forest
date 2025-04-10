@@ -106,6 +106,11 @@ Email alerts for suspicious URL detection
 
 ---
 
+📄 License
+This project is licensed under the MIT License.
+
+---
+
 ## 📦 Installation & Usage
 
 ```bash
