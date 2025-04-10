@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Safety Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 500px;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        .result {
+            font-size: 18px;
+            margin-top: 20px;
+        }
+        .result span {
+            font-weight: bold;
+            padding: 8px 20px;
+            border-radius: 5px;
+        }
+        .safe {
+            background-color: #2ecc71;
+            color: white;
+        }
+        .malicious {
+            background-color: #e74c3c;
+            color: white;
+        }
+        .score {
+            margin-top: 20px;
+            font-size: 22px;
+        }
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        a:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Result</h1>
+        <div class="result">
+            <span class="{{ 'safe' if status == 'Safe' else 'malicious' }}">{{ status }}</span>
+        </div>
+        <p class="result">{{ message }}</p>
+        <div class="score">
+            <p>Trust Score: <strong>{{ trust_score }}</strong>/100</p>
+        </div>
+        <a href="/">Check Another URL</a>
+    </div>
+</body>
+</html>
