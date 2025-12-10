@@ -126,10 +126,7 @@ git clone https://github.com/yourusername/malicious-website-detector.git
 cd malicious-website-detector
 pip install -r requirements.txt
 python app.py
-Open in browser:
+```
 
-cpp
-Copy code
-http://127.0.0.1:5000/
 📄 License
 This project is licensed under the MIT License.
