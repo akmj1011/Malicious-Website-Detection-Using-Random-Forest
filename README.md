@@ -128,5 +128,5 @@ pip install -r requirements.txt
 python app.py
 ```
 
-📄 License
+## 📄 License
 This project is licensed under the MIT License.
